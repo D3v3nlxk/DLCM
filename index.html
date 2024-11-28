@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四象限守护者</title>
+    <link rel="stylesheet" href="styles.css">  <!-- 确保路径正确 -->
+</head>
+<body>
+    <!-- 背景容器 -->
+    <div id="background-container"></div>
+
+    <!-- 个人卡片 -->
+    <div class="card">
+        <img src="https://devenlxk.oss-cn-shenzhen.aliyuncs.com/img/202405072034672.jpg" alt="头像" class="avatar">
+        <h2 class="name">四象限守护者</h2>
+        <p class="bio">代表着ctf的四个方向：web、crypto、reverse、pwn</p>
+    </div>
+
+    <!-- 战队成员 -->
+    <section class="team-members">
+        <h3>战队成员</h3>
+        <div class="members">
+            <div class="member">
+                <a href="https://d3v3nlxk.github.io/" target="_blank">
+                    <img src="https://devenlxk.oss-cn-shenzhen.aliyuncs.com/img/202404111123719.jpg" alt="成员1" class="member-avatar">
+                </a>
+                <div class="member-card">
+                    <h4>RE手</h4>
+                    <p>专注于逆向工程，精通各类漏洞分析。</p>
+                </div>
+            </div>
+            <div class="member">
+                <a href="https://blog.milkory.com/" target="_blank">
+                    <img src="https://blog.milkory.com/images/background-5262f93ef209382ef5bcb0d4aaa6933e.jpg" alt="成员2" class="member-avatar">
+                </a>
+                <div class="member-card">
+                    <h4>PWN手</h4>
+                    <p>在漏洞利用与二进制攻击方面有丰富经验。</p>
+                </div>
+            </div>
+            <div class="member">
+                <a href="https://ch0ico.fun/" target="_blank">
+                    <img src="https://img.dkdun.cn/v1/2024/7/0893df6f05fa2547.jpg" alt="成员3" class="member-avatar">
+                </a>
+                <div class="member-card">
+                    <h4>WEB手</h4>
+                    <p>擅长Web安全、漏洞挖掘与渗透测试。</p>
+                </div>
+            </div>
+            <div class="member">
+                <a href="https://lst4r-max.github.io/" target="_blank">
+                    <img src="https://lst4r-max.github.io/img/1.jpg" alt="成员4" class="member-avatar">
+                </a>
+                <div class="member-card">
+                    <h4>CRYPTO手</h4>
+                    <p>在密码学领域具有深厚的理论基础。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 战队荣誉 -->
+    <section class="team-honors">
+        <h3>战队荣誉</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>时间</th>
+                    <th>比赛名称</th>
+                    <th>排名</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023年5月</td>
+                    <td>全国CTF大赛</td>
+                    <td>第一名</td>
+                </tr>
+                <tr>
+                    <td>2023年8月</td>
+                    <td>全球CTF挑战赛</td>
+                    <td>第三名</td>
+                </tr>
+                <tr>
+                    <td>2024年1月</td>
+                    <td>CTF技术公开赛</td>
+                    <td>第二名</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 引入 JavaScript 文件 -->
+    <script src="BlurDotBg.js"></script>
+
+    <script>
+        // 初始化并创建动态背景
+        let colorbg = new Color4Bg.BlurDotBg({
+            dom: "background-container",  // 设置背景容器的 ID
+            colors: ["#FBDD49","#FF8103","#FF1C6A","#E200A3"],  // 自定义背景点的颜色
+            loop: true  // 启动背景动画循环
+        });
+    </script>
+</body>
+</html>
