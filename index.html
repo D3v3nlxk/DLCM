@@ -1,116 +1,96 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>四象限守护者</title>
-    <link rel="stylesheet" href="styles.css">  <!-- 确保路径正确 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DLCM_暂不支持手机</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/page1.css">
+  <link rel="stylesheet" href="css/page2.css">
+  <link rel="stylesheet" href="css/page3.css">
+  <link rel="stylesheet" href="css/page4.css">
 </head>
 <body>
-    <!-- 背景容器 -->
-    <div id="background-container"></div>
 
-    <!-- 个人卡片 -->
-    <div class="card">
-        <img src="https://devenlxk.oss-cn-shenzhen.aliyuncs.com/img/202405072034672.jpg" alt="头像" class="avatar">
-        <h2 class="name">四象限守护者</h2>
-        <p class="bio">由四个新手在2024年4月29日创建的中大二队，代表着ctf的四个方向：web、crypto、reverse、pwn</p>
+<!-- 页面容器 -->
+<div class="page-container">
+  <div class="page" id="page1">
+
+  </div>
+
+  <div class="page" id="page2">
+    <div class="new-card-wrapper">
+      <div class="new-card">
+        <h1>四象限守护者</h1>
+        <p>由四个新手在2024年4月29日创建的中大二队，代表着ctf的四个方向：web、crypto、reverse、pwn</p>
+        <img src="https://devenlxk.oss-cn-shenzhen.aliyuncs.com/img/202405072034672.jpg" alt="图片描述">
+      </div>
     </div>
 
-    <!-- 战队成员 -->
-    <section class="team-members">
-        <h3>战队成员</h3>
-        <div class="members">
-            <div class="member">
-                <a href="https://d3v3nlxk.github.io/" target="_blank">
-                    <img src="https://devenlxk.oss-cn-shenzhen.aliyuncs.com/img/202404111123719.jpg" alt="成员1" class="member-avatar">
-                </a>
-                <div class="member-card">
-                    <h4>D3v3n</h4>
-                    <p>专注于逆向工程，精通各类漏洞分析。</p>
-                </div>
-            </div>
-            <div class="member">
-                <a href="https://blog.milkory.com/" target="_blank">
-                    <img src="https://blog.milkory.com/images/background-5262f93ef209382ef5bcb0d4aaa6933e.jpg" alt="成员2" class="member-avatar">
-                </a>
-                <div class="member-card">
-                    <h4>misak</h4>
-                    <p>在漏洞利用与二进制攻击方面有丰富经验。</p>
-                </div>
-            </div>
-            <div class="member">
-                <a href="https://ch0ico.fun/" target="_blank">
-                    <img src="https://img.dkdun.cn/v1/2024/7/0893df6f05fa2547.jpg" alt="成员3" class="member-avatar">
-                </a>
-                <div class="member-card">
-                    <h4>CH0ico</h4>
-                    <p>擅长Web安全、漏洞挖掘与渗透测试。</p>
-                </div>
-            </div>
-            <div class="member">
-                <a href="https://lst4r-max.github.io/" target="_blank">
-                    <img src="https://lst4r-max.github.io/img/1.jpg" alt="成员4" class="member-avatar">
-                </a>
-                <div class="member-card">
-                    <h4>Lst4r</h4>
-                    <p>在密码学领域具有深厚的理论基础。</p>
-                </div>
-            </div>
-            <div class="member">
-                <a href="https://github.com/Nop3z" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/147847358?v=4" alt="成员5" class="member-avatar">
-                </a>
-                <div class="member-card">
-                    <h4>Nop</h4>
-                    <p>Ch0ico的小迷弟(老大)</p>
-                </div>
-            </div>
+  </div>
+
+  <div class="page" id="page3">
+    <h1> 成员列表</h1>
+    <div class="cards-container"></div>
+  </div>
+
+  <div class="page" id="page4">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-time">2024-05</div>
+        <div class="timeline-content">
+          <h3>CISCN</h3>
+          <p>华南赛区半决赛43名</p>
         </div>
-    </section>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">2024-05</div>
+        <div class="timeline-content">
+          <h3>磐石行动</h3>
+          <p>第九届上海市大学生网络安全大赛暨 “磐石行动” 2024 第二届全国高校网络安全攻防活动	网络攻防赛复赛34名</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">2024-11</div>
+        <div class="timeline-content">
+          <h3>鹏城杯</h3>
+          <p>攻击队51名，防守方33名</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- 战队荣誉 -->
-    <section class="team-honors">
-        <h3>战队荣誉</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>时间</th>
-                    <th>比赛名称</th>
-                    <th>排名</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2024年5月</td>
-                    <td>CISCN</td>
-                    <td>华南赛区半决赛43名</td>
-                </tr>
-                <tr>
-                    <td>2024年5月</td>
-                    <td>第九届上海市大学生网络安全大赛暨
-“磐石行动” 2024 第二届全国高校网络安全攻防活动</td>
-                    <td>网络攻防赛复赛34名</td>
-                </tr>
-                <tr>
-                    <td>2024年11月</td>
-                    <td>鹏城杯</td>
-                    <td>攻击队51名，防守方33名</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
-    <!-- 引入 JavaScript 文件 -->
-    <script src="BlurDotBg.js"></script>
 
-    <script>
-        // 初始化并创建动态背景
-        let colorbg = new Color4Bg.BlurDotBg({
-            dom: "background-container",  // 设置背景容器的 ID
-            colors: ["#FBDD49","#FF8103","#FF1C6A","#E200A3"],  // 自定义背景点的颜色
-            loop: true  // 启动背景动画循环
-        });
-    </script>
+  <div class="page" id="page5">
+    <div class="img">made by choco</div>
+  </div>
+
+</div>
+
+<!-- 翻页按钮 -->
+<div id="pageButtons" class="page-buttons">
+  <button id="button1">
+    <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+    <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+  </svg>HOME
+  </button>
+  <button id="button2"></button>
+  <button id="button3"></button>
+  <button id="button4"></button>
+  <button id="button5"></button>
+</div>
+
+
+<script src="js/js1.js"></script>
+<script src="js/js2.js"></script>
+<script src="js/js3.js"></script>
+<script src="js/js4.js"></script>
+<script src="js/js5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 </body>
 </html>

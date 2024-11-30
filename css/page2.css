@@ -1,0 +1,88 @@
+/* 只影响 #page2 内的元素 */
+#page2 {
+    background-image: url('../assets/a.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#page2.page{
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+#page2.page:hover {
+    transform: scale(1.05); /* 卡片悬浮放大效果 */
+}
+
+#page2 h1 {
+    font-size: 3.5rem; /* 设置较大的字体大小 */
+    font-weight: 700;  /* 字体加粗 */
+    color: #fff; /* 白色字体 */
+    text-align: center; /* 居中对齐 */
+    text-transform: uppercase; /* 大写字母 */
+    letter-spacing: 5px; /* 字母间距 */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* 添加文字阴影 */
+    margin-bottom: 40px; /* 给标题底部添加空间 */
+    animation: slideIn 1s ease-out; /* 添加滑入动画 */
+}
+
+/* 新容器样式 */
+.new-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* 页面顶部间距 */
+}
+
+/* 新卡片样式 */
+.new-card {
+    background-color: rgba(0, 0, 0, 0.25); /* 卡片背景色 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.31); /* 卡片阴影 */
+    padding: 30px; /* 内边距 */
+    max-width: 800px; /* 最大宽度 */
+    text-align: center; /* 内容居中 */
+    color: #f1f1f1; /* 文字颜色 */
+    opacity: 0.8;
+}
+
+/* 新标题样式 */
+.new-card h1 {
+    font-size: 3rem; /* 标题字体大小 */
+    font-weight: bold; /* 加粗 */
+    color: #ffffff; /* 标题颜色 */
+    text-shadow: 2px 2px 6px rgba(238, 102, 102, 0.3); /* 添加文字阴影 */
+    margin-bottom: 20px; /* 标题底部间距 */
+}
+
+/* 新段落样式 */
+.new-card p {
+    font-size: 1.6rem; /* 段落字体大小 */
+    line-height: 1.8; /* 行高 */
+    max-width: 700px; /* 最大宽度 */
+    margin: 0 auto 20px; /* 居中，底部间距 */
+    color: #f1f1f1; /* 文字颜色 */
+}
+
+/* 新突出文字样式 */
+.new-card p span {
+    font-weight: bold;
+    color: #ffdd57; /* 黄色突出显示 */
+}
+
+/* 新图片样式 */
+.new-card img {
+    max-width: 50%; /* 图片宽度自适应 */
+    height: auto; /* 图片高度保持比例 */
+    border-radius: 10px; /* 图片圆角 */
+    margin-top: 20px; /* 图片顶部间距 */
+}
+
+
