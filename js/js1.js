@@ -21,7 +21,10 @@ const button5 = document.getElementById('button5');
 
 // 按钮数组
 const buttons = [button1, button2, button3, button4, button5];
-
+buttons[1].classList.add('show');
+buttons[2].classList.add('show');
+buttons[3].classList.add('show');
+buttons[4].classList.add('show');
 // 页面跳转函数
 function goToPage(pageNumber) {
     // 设置页面容器的 transform 样式，实现水平滑动
@@ -33,11 +36,7 @@ function goToPage(pageNumber) {
         button.classList.remove('show');
     });
 
-    // 根据当前页面显示特定按钮
-    if (pageNumber === 2 || pageNumber === 3 || pageNumber === 4 || pageNumber === 5) {
-        buttons[0].classList.add('show');
-        buttons[pageNumber-1].classList.add('show');
-    }
+
     if (pageNumber === 1) {
         buttons[1].classList.add('show');
         buttons[2].classList.add('show');

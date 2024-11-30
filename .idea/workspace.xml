@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d02f4a-43c0-4de8-9b28-af1874bf05a7" name="更改" comment="" />
+    <list default="true" id="19d02f4a-43c0-4de8-9b28-af1874bf05a7" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/js/js1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js1.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
