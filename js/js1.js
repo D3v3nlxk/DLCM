@@ -21,6 +21,7 @@ const button5 = document.getElementById('button5');
 
 // 按钮数组
 const buttons = [button1, button2, button3, button4, button5];
+buttons[0].classList.add('show');
 buttons[1].classList.add('show');
 buttons[2].classList.add('show');
 buttons[3].classList.add('show');
@@ -38,6 +39,7 @@ function goToPage(pageNumber) {
 
 
     if (pageNumber === 1) {
+        buttons[0].classList.add('show');
         buttons[1].classList.add('show');
         buttons[2].classList.add('show');
         buttons[3].classList.add('show');
